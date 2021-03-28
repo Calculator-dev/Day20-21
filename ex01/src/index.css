@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.text_area {
+    resize: none;
+    width: 100%;
+    pointer-events: none;
+}
+
+.keyboard {
+    width: 740px;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.keyboard .key {
+    margin-top: 20px;
+    background-color: #3b3b3bb6;
+}
+
+.keyboard .key .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    gap: 2px ;
+}
+
+.keyboard .key .row button.backspace {
+   width: 25%;
+}
+
+.keyboard .key .row button.capslock {
+    width: 25%;
+} 
+
+.keyboard .key .row button.enter {
+    width: 32.55%;
+} 
+
+.keyboard .key .row button.shift {
+    width: 32.55%;
+}
+
+.keyboard .key .row button.submit {
+    width: 20%;
+}
+
+.keyboard .key .row button.spacebar {
+    width: 80%;
+}
+
+.keyboard .key .row button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+}
+
